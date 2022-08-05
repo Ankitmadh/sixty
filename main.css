@@ -1,0 +1,124 @@
+#star{
+    color: red;
+}
+#drop-container{
+    width: 500px;
+}
+#drop-con{
+    text-align:right;
+}
+#img-first{
+    width: 50px;
+    
+    margin-left: 2%;
+}
+#img-second{
+    height: 100%;
+    width: 90%;
+}
+#col-mic{
+    background-color:black;
+    height: 600px;
+}
+
+#col-highlght{
+    color: white;
+    margin-top: 50px;
+    line-height: 1.5;
+}
+#conttact{
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    height: 50px;
+}
+
+#menu{
+    width: 50px;
+    height: 50px;
+   background-color: black;
+    cursor: pointer;
+    z-index: 100;
+margin-top: 5px;
+ margin-right: 10px;
+   padding-top: 17px;
+   padding-right: 11px;
+   border: 1px solid black;
+   border-radius: 6px;
+  
+}
+.bar{
+    height: 5px;
+    width: 25px;
+    background-color: white;
+    display: block;
+    border-radius: 5px;
+    transition: all .3s cubic-bezier(1,.07,0,.86);
+}
+#bar1{
+    transform: translateY(-4px);
+
+}
+
+#bar3{
+   transform: translateY(4px);
+   background-color: white;
+    
+}
+
+.nav li a{
+color: white;
+text-decoration: none;
+padding: 10px;
+
+}
+.nav li a:hover{
+    border: 1px solid #fff;
+
+}
+.nav li{
+    list-style: none;
+    padding: 10px 0;
+    float: left;
+}
+.nav{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+display: none;
+    transform: 1s none;
+   background-color: black;
+   position: relative;
+   margin-right: 50px;
+}
+.icon .bar{
+    background-color: white;
+
+}
+.icon #bar1{
+transform: translateY(4px) rotate(-45deg);
+}
+.icon #bar3{
+    transform: translateY(-6px) rotate(45deg);
+    }
+    .icon #bar2{
+opacity: 0;
+
+    }
+    .change{
+        background-color:black;
+        
+position: absolute;
+        font-size: 19px;
+        z-index: -100;
+       transition: all .1s cubic-bezier(1,.07,0,.86);
+
+display: flex;
+       flex-direction: row;
+width: auto;
+      top:71px;
+   
+      border: 1px solid black;
+      border-radius: 6px;  
+    }
